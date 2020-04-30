@@ -1639,6 +1639,7 @@ class MimeMagic
   # @private
   # :nodoc:
   MAGIC = [
+    ['image/heic', [[4, 'ftypheic'], [4, 'ftypheix']]],
     ['image/jpeg', [[0, "\377\330\377"], [0, "\377\330"]]],
     ['image/png', [[0, "\211PNG"]]],
     ['image/gif', [[0, 'GIF8']]],
